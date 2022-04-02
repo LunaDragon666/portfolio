@@ -434,6 +434,7 @@ footer p {
 }
 
 .b {
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -457,6 +458,7 @@ footer p {
 }
 
 .button-wrap {
+   margin-bottom: -3rem;
     margin-top: 4.75rem;
 }
 
@@ -469,7 +471,8 @@ footer p {
         margin-top: 3.5rem;
     }
     .button-wrap {
-        margin-top: 4.25rem;
+        margin-bottom: -2rem;
+      margin-top: 4.25rem;
     }
 }
 
@@ -598,4 +601,4 @@ form:after {
       float: none;
       padding: 0;
     }
-}}
+}
