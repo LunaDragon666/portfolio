@@ -355,7 +355,7 @@ footer p {
 
     .services, .about-page {
         margin-top: 20.75rem !important;
-        padding-bottom: 4.25rem;
+        padding-bottom: 4.25rem !important;
     }
 
     .text {
@@ -462,7 +462,7 @@ footer p {
 
 @media screen and (max-width: 1024px) {
     .bio {
-        height: 175px;
+        height: 150px;
     }
     #profile {
         margin-bottom: 1rem !important;
@@ -598,4 +598,4 @@ form:after {
       float: none;
       padding: 0;
     }
-}
+}}
