@@ -462,14 +462,14 @@ footer p {
 
 @media screen and (max-width: 1024px) {
     .bio {
-        height: 30px;
+        height: 50px;
     }
     #profile {
         margin-bottom: 1rem !important;
         margin-top: 3.5rem;
     }
     .button-wrap {
-        margin-top: 3.25rem;
+        margin-bottom: 5rem;margin-top: 3.25rem;
     }
 }
 
