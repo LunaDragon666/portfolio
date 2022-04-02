@@ -138,7 +138,7 @@ header {
 
 .text {
   order: 1;
-    width: 40%;
+    width: 51%;
 }
 
 .button-group {
@@ -155,19 +155,19 @@ a.cta {
     margin-right: 1.4rem;
     margin-top: 3rem;
     padding: 10px 20px;
-}
+text-decoration: none;}
 
 #download-btn {
     border: 3px solid #09B6BE;
     background: #09B6BE;
-}
+text-decoration: none;}
 
 #download-button {
     margin-right: 0.5rem;
 }
 
 .image {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
     order: 2;
     z-index: -1;
 }
@@ -177,7 +177,6 @@ h2 {
   color: #2B3694;
   font-size: 26px;
   margin-bottom: 3rem;
-  margin-left: 13.5rem;
   margin-top: 1rem;
 }
 
@@ -354,8 +353,8 @@ footer p {
         margin-top: 0rem;
     }
 
-    .services {
-        margin-top: 20.75rem;
+    .services, .about-page {
+        margin-top: 20.75rem !important;
         padding-bottom: 4.25rem;
     }
 
@@ -418,9 +417,56 @@ footer p {
    line-height: 34px;
 }
 
+#profile {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.about-page {
+    margin: 0 auto;
+    max-width: 1525px;
+    min-height: 600px;
+    padding: 30px 40px;
+}
+
+.b, .paragraph {
+    margin-bottom: 1rem;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.contact-button {
+    background: white;
+    border: 3px solid #2B3694;
+    border-radius: 5px;
+    color: #2B3694;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding: 10px 20px;
+    text-decoration: none !important;
+    transition: 0.25s;
+}
+
+.contact-button:hover {
+    background: #2B3694;
+    border: 3px solid #2B3694;
+    color: white;
+}
+
+.button-wrap {
+    margin-top: 4.75rem;
+}
+
 @media screen and (max-width: 1024px) {
-    .bio {
-        height: 100px;
+    #profile {
+        margin-bottom: 1rem !important;
+        margin-top: 3.5rem;
+    }
+    .button-wrap {
+        margin-top: 3.25rem;
     }
 }
 
