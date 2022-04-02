@@ -462,7 +462,7 @@ footer p {
 
 @media screen and (max-width: 1024px) {
     .bio {
-        height: 50px;
+        height: 100px;
     }
     #profile {
         margin-bottom: 1rem !important;
