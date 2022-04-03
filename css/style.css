@@ -206,7 +206,7 @@ h3, .section i {
 .section i {
     font-size: 25px;
     font-weight: bold;
-}
+display: block;margin-bottom: 0.5rem;}
 
 .section div {
     background-color: white;
@@ -257,13 +257,14 @@ hr {
 }
 
 /* */ 
-.pizza {
+.sample {
     display: flex;
     max-width: 1441px;
-    
+    flex-direction: row;
     overflow: hidden;
     margin-bottom: 20px;
-    justify-content: right;}
+    justify-content: right;
+}
   
   .pizza__hero {
     flex: 0 0 30%;}
@@ -273,25 +274,23 @@ hr {
     display: block
   }
    
-  .pizza__content {
-    background: #fff;
-    flex: 1;
-    padding: 0px 25px 50px;
+  .sample-content {
     display: flex;
     flex-direction: column;
+    flex: 1;
+    padding: 0px 25px 50px;
   }
   
-  .pizza__title{
+  .pizza__title {
     display: flex;
     align-items: center;
     margin-bottom: 20px;}
   
-  .pizza__heading{
-    
+  .pizza__heading {
     margin-right: auto;
   }
   
-  .pizza__tag{
+  .pizza__tag {
     font-size: 14px;
     text-transform: uppercase;
     color: white;
@@ -311,23 +310,18 @@ hr {
     font-size:14px
   }
   
-  .pizza__details{
+  .pizza__details {
     display:flex;
     margin-top:auto;
   }
   
-  .pizza__detail{
+  .pizza__detail {
     font-size: 15px;
     text-transform: uppercase;
     margin-right: 20px;
     font-weight: 700;
     display: flex;
     align-items: center;
-  }
-  
-  .emoji{
-    font-size: 20px;
-    margin-right:3px
   }
   
   section.workplace {
@@ -478,6 +472,11 @@ footer p {
 
     .section p {
       position: unset;
+    }
+
+    /* */
+    .sample {
+        flex-direction: column;
     }
 
     /* FOOTER */
