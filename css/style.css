@@ -195,8 +195,6 @@ h2 {
 
 h3 {
   font-size: 20px;
-  /* margin-bottom: 30px; */
-  /* margin-top: 10px; */
 }
 
 h3, .section i {
@@ -206,7 +204,7 @@ h3, .section i {
 .section i {
     font-size: 25px;
     font-weight: bold;
-display: block;margin-bottom: 0.5rem;}
+    display: block;margin-bottom: 0.5rem;}
 
 .section div {
     background-color: white;
@@ -251,12 +249,11 @@ hr {
     padding: 2.5rem;
     
 }
-
-.worksample {
+/* */ 
+.sample-link {
     text-decoration: none !important;
 }
 
-/* */ 
 .sample {
     display: flex;
     max-width: 1441px;
@@ -267,36 +264,38 @@ hr {
 }
   
   .pizza__hero {
-    flex: 0 0 30%;}
+    flex: 0 0 35%;
+}
   
   .pizza__img {
-    border-radius: 2.5%;width: 100%;
-    display: block
-  }
+    border-radius: 2.5%;
+    width: 100%;
+    
+  min-height: 350px;object-fit: cover;}
    
   .sample-content {
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 0px 25px 50px;
+    padding: 0 35px 0;
   }
   
-  .pizza__title {
+  .sample-title {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;}
+    margin: 25px 0 50px;}
   
-  .pizza__heading {
+  .sample-heading {
     margin-right: auto;
   }
   
-  .pizza__tag {
+  .pizza__tag--1 {
     font-size: 14px;
-    text-transform: uppercase;
+    text-transform: unset;
     color: white;
     padding: 5px 20px;
     border-radius: 100px;
-    margin-left: 7px;
+    
   }
   
   .pizza__tag--1 {
@@ -304,7 +303,7 @@ hr {
   }
   .pizza__tag--2 {
     color: #3C6EA0;
-  }
+  margin-left: 1.5rem;}
   
   .pizza__description {
     font-size:14px
@@ -324,10 +323,10 @@ hr {
     align-items: center;
   }
   
-  section.workplace {
+  .workplace {
     display: flex;
     justify-content: center;
-  }
+  max-width: 1280px;margin: 0 auto;}
 
 /* FOOTER */
 .footer-down {
@@ -478,6 +477,14 @@ footer p {
     .sample {
         flex-direction: column;
     }
+
+    .sample-content {
+        padding: 0 0 0 5px;
+      }
+
+      .sample-title {
+          margin-top: 2rem;flex-direction: column;
+      align-items: flex-start;}
 
     /* FOOTER */
     footer {
