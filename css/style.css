@@ -155,7 +155,7 @@ max-width: 1315px;margin: 0 auto;}
     margin-right: 1.4rem;
     margin-top: 3rem;
     padding: 10px 20px;
-    text-decoration: none;}
+    text-decoration: none !important;}
 
 #download-btn {
     border: 3px solid #09B6BE;
@@ -180,16 +180,14 @@ h2 {
   margin-top: 1rem;
 }
 
-.services {
-    background-color: #EDF7FA;
-    min-height: 575px;
-    padding: 30px 40px;
+.background {
+  background-color: #EDF7FA;
 }
 
 .section {
     display: flex;
     flex-direction: row;
-    gap: 75px;
+    gap: 56px;
     justify-content: center;
 }
 
@@ -199,12 +197,12 @@ h3 {
 
 h3, .section i {
     color: #2B3694;
-}
+margin-bottom: 1rem;}
 
 .section i {
     font-size: 25px;
     font-weight: bold;
-    display: block;margin-bottom: 0.5rem;}
+    display: block;margin-bottom: 1rem;}
 
 .section div {
     background-color: white;
@@ -213,7 +211,7 @@ h3, .section i {
     padding: 30px 30px 50px;
     position: relative;
     transition: ease-in 0.25s;
-    width: 20%;
+    width: 40%;
 }
 
 .section div:first-child {
@@ -245,7 +243,7 @@ hr {
     justify-content: center;
 }
 
-.work {
+.work, .service {
     padding: 4rem 6rem;
     
 }
@@ -307,7 +305,7 @@ hr {
     color: #1C4C7B;font-size:14px
   }
   
-  .workplace {
+  .workplace, .services {
     display: flex;
     justify-content: center;
     max-width: 1280px;
@@ -378,7 +376,7 @@ footer p {
   h1 {
     font-size: 36px;
   }
-    .work {
+    .work, .service {
         
     padding: 4rem 3rem;}
   h2 {
@@ -466,7 +464,8 @@ footer p {
     }
 
     .text {
-        margin-top: -7rem;order: 2;
+        margin-top: -7rem;
+        order: 2;
         width: 85%;
     }
 
@@ -477,7 +476,9 @@ footer p {
     .cta {
         background: #2B3694;
         color: white;
-        margin: 3rem auto -1.5rem;text-align: center;width: 100%;
+        margin: 3rem auto -1.5rem;
+        text-align: center;
+        width: 100%;
     }
 
     .image {
@@ -505,7 +506,7 @@ footer p {
     }
 
     .section div {
-        height: 250px;
+        
         width: 100%;
     }
 
@@ -514,7 +515,7 @@ footer p {
     }
 
     /* */
-    .work {
+    .work, .service {
         padding: 1.5rem 2.25rem;
     }
     
