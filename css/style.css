@@ -422,13 +422,13 @@ footer p {
     header {
         flex-direction: column;
         height: 250px;
-        margin-bottom: 21rem;
+        margin-bottom: 5rem;
         margin-top: 0rem;
         padding: 0;
     }
 
     .services, .about-page {
-        margin-top: 20.75rem !important;
+        margin-top: 18.75rem !important;
         padding-bottom: 4.25rem !important;
     }
 
@@ -448,8 +448,8 @@ footer p {
     }
 
     .image {
-        margin-bottom: 4.5rem !important;
-        order: 1;
+        margin-bottom: 3.5rem !important;
+        margin-top: -5rem;order: 1;
     }
 
     .heading {
