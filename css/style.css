@@ -325,7 +325,7 @@ footer {
     flex-shrink: 0;
     height: 100px;
     justify-content: center;
-}
+padding: 4rem 0 6rem;}
 
 footer i {
     color: #2B3694;
