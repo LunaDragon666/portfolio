@@ -310,7 +310,40 @@ hr {
   .workplace {
     display: flex;
     justify-content: center;
-    max-width: 1280px;margin: 0 auto;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.work-link#main {
+    background-color: #2B3694;
+    border: 2px solid #2B3694;
+    color: white;
+    font-weight: normal;
+}
+
+.work-link {
+    background-color: white;
+    border: 2px solid #2B3694;
+    border-radius: 7px;
+    color: #2B3694;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding: 0.5rem 1rem;
+    text-decoration: none !important;
+    transition: 0.25s;
+}
+
+.work-link:hover, #main:hover {
+    background-color: #7483FE;
+    border: 2px solid #7483FE;
+    color: white;
+}
+
+.btn-wrap {
+    display: flex;
+    gap: 28px;
+    margin-top: 2.75rem;
 }
 
 /* FOOTER */
@@ -503,7 +536,13 @@ footer p {
     }
 
     .sample-description {
-      margin-bottom: 1.5rem;
+      margin-bottom: 0;
+    }
+
+    .btn-wrap {
+      flex-direction: column;
+      margin-bottom: 2rem;
+      text-align: center;
     }
 
     .category {
