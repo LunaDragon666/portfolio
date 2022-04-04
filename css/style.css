@@ -345,9 +345,9 @@ footer p {
   h1 {
     font-size: 36px;
   }
-    header {
-        padding: 0rem 3.75rem;
-    }
+    .work {
+        
+    padding: 4rem 6.5rem;}
   h2 {
     margin-left: 0;
   }
@@ -400,7 +400,7 @@ footer p {
         position: relative;
         display: flex;
         flex-direction: column;
-        height: 35vh;
+        height: 41vh;
         background-color: #DCFFEF;
         transition: 0.5s cubic-bezier(0.9, -0.14, 0, 1.15);
         transform: translateY(-120%);
@@ -422,8 +422,8 @@ footer p {
     header {
         flex-direction: column;
         height: 250px;
-        margin-bottom: 23rem;
-        margin-top: -1rem;
+        margin-bottom: 21rem;
+        margin-top: 1rem;
         padding: 0;
     }
 
@@ -433,7 +433,7 @@ footer p {
     }
 
     .text {
-        order: 2;
+        margin-top: -7rem;order: 2;
         width: 85%;
     }
 
@@ -448,12 +448,12 @@ footer p {
     }
 
     .image {
-        margin-bottom: 3.25rem !important;
+        margin-bottom: 4.5rem !important;
         order: 1;
     }
 
     .heading {
-      margin-top: 0.5rem;
+      margin-top: -4.5rem;
     }
 
     header h1 {
