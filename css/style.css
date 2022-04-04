@@ -264,7 +264,7 @@ hr {
 }
   
   .sample-photo {
-    flex: 0 0 35%;
+    flex: 0 0 40%;
 }
   
   .sample-img {
@@ -277,7 +277,7 @@ hr {
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 0 35px 0;
+    padding: 0 0 0 35px;
   }
   
   .sample-title {
