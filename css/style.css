@@ -235,7 +235,7 @@ h3, .section i {
 hr {
     background: #A6CEF5;
     border: 1px solid #A6CEF5;
-    border-radius: 10px;margin: 30px 0;
+    border-radius: 10px;margin: 30px 0 40px;
 }
 
 .portfolio {
@@ -263,15 +263,15 @@ hr {
     justify-content: right;
 }
   
-  .pizza__hero {
+  .sample-photo {
     flex: 0 0 35%;
 }
   
-  .pizza__img {
+  .sample-img {
     border-radius: 2.5%;
     width: 100%;
-    
-  min-height: 350px;object-fit: cover;}
+    min-height: 350px;object-fit: cover;
+}
    
   .sample-content {
     display: flex;
@@ -289,44 +289,29 @@ hr {
     margin-right: auto;
   }
   
-  .pizza__tag--1 {
+  .year-tag {
+    background-color: #7483FE;
     font-size: 14px;
-    text-transform: unset;
+    font-weight: bold;letter-spacing: 1.5px;text-transform: unset;
     color: white;
     padding: 5px 20px;
-    border-radius: 100px;
-    
-  }
-  
-  .pizza__tag--1 {
-    background-color: #2B3694;
-  }
-  .pizza__tag--2 {
+    border-radius: 100px; 
+}
+
+  .category {
     color: #3C6EA0;
-  margin-left: 1.5rem;}
+    margin-left: 1.5rem;
+}
   
-  .pizza__description {
-    font-size:14px
-  }
-  
-  .pizza__details {
-    display:flex;
-    margin-top:auto;
-  }
-  
-  .pizza__detail {
-    font-size: 15px;
-    text-transform: uppercase;
-    margin-right: 20px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
+  .sample-description {
+    color: #1C4C7B;font-size:14px
   }
   
   .workplace {
     display: flex;
     justify-content: center;
-  max-width: 1280px;margin: 0 auto;}
+    max-width: 1280px;margin: 0 auto;
+}
 
 /* FOOTER */
 .footer-down {
@@ -451,7 +436,7 @@ footer p {
     .cta {
         background: #2B3694;
         color: white;
-    margin: 3rem auto -1.5rem;text-align: center;width: 100%;
+        margin: 3rem auto -1.5rem;text-align: center;width: 100%;
     }
 
     .image {
@@ -464,12 +449,12 @@ footer p {
     }
 
     header h1 {
-      font-size: 36px;
-      line-height: 44px;
+        font-size: 36px;
+        line-height: 44px;
     }
 
     header p {
-      margin-bottom: 0.25rem;
+        margin-bottom: 0.25rem;
     }
 
     /* SECTION 1 ~ My services */
@@ -484,7 +469,7 @@ footer p {
     }
 
     .section p {
-      position: unset;
+        position: unset;
     }
 
     /* */
@@ -495,19 +480,38 @@ footer p {
     .sample-content {
         padding: 0 0 0 5px;
       }
+      .sample-heading {
+    margin-top: 0.5rem;
+  }
 
-      .sample-title {
-          margin-top: 2rem;flex-direction: column;
-      align-items: flex-start;}
+    .sample-title {
+        margin-bottom: 2.75rem;
+         margin-top: 1.25rem;   
+        align-items: flex-start;
+    }
+
+    .sample-description {
+      margin-bottom: 1.5rem;
+    }
+
+    .category {
+        margin-top: 0.25rem;
+    }
+
+    hr {
+      margin: 30px 0 70px;
+    }
 
     /* FOOTER */
     footer {
         flex-direction: column;
     }
+
     .social-media {
         display: block;
         margin-bottom: 1rem;
     }
+
     footer p {
         padding-left: 0;
     }
