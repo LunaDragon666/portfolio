@@ -578,7 +578,7 @@ footer p {
 }
 
 .bio {
-    margin-bottom: 0;
+    margin-bottom: -6rem;
 }
 
 .highlight-text {
@@ -646,7 +646,7 @@ footer p {
     }
     #profile {
         margin-bottom: 3rem !important;
-        margin-top: -1rem;
+        margin-top: -7rem;
     }
     .button-wrap {
         margin-bottom: 0;
