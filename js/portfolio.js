@@ -13,8 +13,8 @@ portfolio.forEach(work => {
       <div class="sample-content">
         <h3 class="sample-heading">${work.name}</h3>
         <div class="sample-title">
-          <div class="year-tag">${work.year}</div>
-          <div class="category">${work.category}</div>
+          <span class="year-tag">${work.year}</span>
+          <span class="category">${work.category}</span>
         </div>
         <p class="sample-description">${work.description}</p>
         <div class="btn-wrap">
