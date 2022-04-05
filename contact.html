@@ -50,7 +50,10 @@
             <!-- name -->
             <label for="name">            
                 Name 
-            <span class="required">*</span>
+            <span class="required">
+                *
+            </span>
+            <span id="name" class="error">Enter your name</span>
             </label>
             <input type="text" name="name" id="name" required>
             <!-- email -->
@@ -59,6 +62,7 @@
             <span class="required">
                 *
             </span>
+            <span id="email" class="error">Invalid email</span>
             </label>
             <input type="email" name="email" id="email" required>
             <!-- phone -->
@@ -76,6 +80,7 @@
             <span class="required">
                 *
             </span>
+            <span id="message" class="error">Must contain at least 24 characters</span>
             </label>
             <textarea name="message" id="formMessage" required></textarea>
             <!-- submit button -->
