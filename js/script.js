@@ -1,7 +1,7 @@
 const hamburgerMenu = document.querySelector('.ham-menu');
 const dropdown = document.querySelector('.drop-menu');
 const dropdownMenu = document.querySelectorAll('.drop-menu div');
-const dropMenuListText = document.querySelectorAll('.drop-menu div a');
+const dropDownLinks = document.querySelectorAll('.drop-menu div a');
 
 hamburgerMenu.addEventListener('click',() => {
   dropdown.classList.toggle('drop-down');
