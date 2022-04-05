@@ -7,7 +7,7 @@ portfolio.forEach(work => {
     <figure class="sample">
       <div class="sample-photo">
         <a>
-          <img src="${work.image}" alt="${work.image}" class="sample-img">
+          <img src="${work.image}" alt="${work.name} ${work.category}" class="sample-img">
         </a>
       </div>
       <div class="sample-content">
