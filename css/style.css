@@ -704,6 +704,27 @@ input[type="submit"]:focus {
 select {
     color: #C6EFFB;
 }
+/* Contact form validations */
+.error {
+    background-color: #fff1f4;
+    border-radius: 2.5px;
+    color: #EC1C4E;
+    display: none;
+    font-size: 14px;
+    margin-left: 0.5rem;
+    padding: 2px 6px;
+}
+#message {
+    background: #f7ffff;
+    border: 1px solid var(--tertiary-color);
+    border-radius: 2.5px;
+    margin-bottom: 2rem;
+    padding: 5px 10px;
+}
+.message {
+    color: var(--tertiary-color);
+    font-size: 14px;
+}
 
 /* MEDIA QUERIES ~ Contact form Page*/
 @media screen and (max-width: 1024px) {
@@ -726,5 +747,3 @@ select {
         font-size: 18px;
     }
 }
-
-/* Contact form validations */
