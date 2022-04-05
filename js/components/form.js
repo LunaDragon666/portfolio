@@ -50,7 +50,7 @@ function submitForm(event) {
     const errors = passTheForm();
 
     if(!errors) {
-        message.innerHTML = '<span class="message">Thank you for your message! I will come back to you as soon as possible.</span>';
+        message.innerHTML = '<div class="message">Thank you for your message! I will come back to you as soon as possible.</div>';
     } 
 
     // Retain inputted text after submit, unless we change it or refresh the page
