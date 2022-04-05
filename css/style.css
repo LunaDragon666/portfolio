@@ -515,7 +515,7 @@ footer p {
     .section p {
         position: unset;
     }
-    .services, .work {
+    .service, .work {
         padding: 1.5rem 2.25rem;
     }
 
