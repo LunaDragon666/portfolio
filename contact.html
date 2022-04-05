@@ -12,90 +12,95 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS here -->
 </head>
+
 <body>
     <div class="footer-down">
-    <!-- NAV -->
-    <nav>
-        <section class="menu">
-            <!-- Logo-placement -->
-            <span class="title"></span>
-            <!-- Main menu -->
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="index.html#portfolio">Portfolio</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html" class="active">Contact</a></li>
-            </ul>
-            <!-- Hamburger menu -->
-            <div class="ham-menu">
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </section>
-    </nav>
-    <!-- Dropdown-like menu (mobile version) -->
-    <div class="drop-menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-      </div>
-    <!-- CONTACT FORM -->
-    <form id="contactForm">
-        <div class="message"></div>
-        <h1 class="form-heading">Let's get in touch</h1> 
 
-        <!-- Input fields -->
-        <div class="form_column">
-            <!-- name -->
-            <label for="name">            
-                Name 
-            <span class="required">
-                *
-            </span>
-            <span id="name" class="error">Enter your name</span>
-            </label>
-            <input type="text" name="name" id="name" required>
-            <!-- email -->
-            <label for="email">
-                Email 
-            <span class="required">
-                *
-            </span>
-            <span id="email" class="error">Invalid email</span>
-            </label>
-            <input type="email" name="email" id="email" required>
-            <!-- phone -->
-            <label for="the-phone">
-                Phone number (Optimal)
-            </label>
-            <input type="tel" name="phone" id="the-phone">     
+        <!-- NAV -->
+        <nav>
+            <section class="menu">
+                <!-- Logo-placement -->
+                <span class="title"></span>
+                <!-- Main menu -->
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <!-- Hamburger menu -->
+                <div class="ham-menu">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </section>
+        </nav>
+        <!-- Dropdown-like menu (mobile version) -->
+        <div class="drop-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </div>
 
-        <!-- Message field -->
-        <div class="form_message">
-            <!-- message -->
-            <label for="message">
-                Message
-            <span class="required">
-                *
-            </span>
-            <span id="message" class="error">Must contain at least 24 characters</span>
-            </label>
-            <textarea name="message" id="formMessage" required></textarea>
-            <!-- submit button -->
-            <input type="submit" value="Send">
-        </div>
-    </form>
+        <!-- CONTACT FORM -->
+        <form id="contactForm">
+            <div class="message"></div>
+            <h1 class="form-heading">Let's get in touch</h1>
+                <!-- * 1st column * --> 
+                    <!-- Input fields -->
+                    <div class="form_column">
+                        <!-- name -->
+                        <label for="name">            
+                            Name 
+                        <span class="required">
+                            *
+                        </span>
+                            <span id="name" class="error">Enter your name</span>
+                        </label>
+                        <input type="text" name="name" id="name">
+                        <!-- email -->
+                        <label for="email">
+                            Email 
+                        <span class="required">
+                            *
+                        </span>
+                            <span id="email" class="error">Invalid email</span>
+                        </label>
+                        <input type="email" name="email" id="email">
+                        <!-- phone -->
+                        <label for="the-phone">
+                            Phone number (Optimal)
+                        </label>
+                        <input type="tel" name="phone" id="the-phone">     
+                    </div>
+                    <!-- * 2nd column * -->
+                        <!-- Message field -->
+                        <div class="form_message">
+                            <!-- message -->
+                            <label for="message">
+                                Message
+                            <span class="required">
+                                *
+                            </span>
+                                <span id="message" class="error">Must contain at least 24 characters</span>
+                            </label>
+                            <textarea name="message" id="formMessage"></textarea>
+                        <!-- submit button -->
+                            <input type="submit" value="Send">
+                        </div>
+        </form>
+        
     </div>
+
     <!-- FOOTER -->
     <footer>
         <ul class="social-media">
             <a href="#">
                 <i class="ri-instagram-fill"></i>
             </a>
-            <a href="#">
+            <a href="https:www.linkedin.com/in/monika-lie" target="_blank">
                 <i class="ri-linkedin-box-fill"></i>
             </a>
             <a href="#">
@@ -104,7 +109,11 @@
         </ul>
         <p>Copyright © 2020-2022 Monika Lie</p>
     </footer>
+
     <!-- Javascript here -->
     <script src="js/script.js"></script>
+    <script src="js/components/form.js"></script>
+
 </body>
+
 </html>
