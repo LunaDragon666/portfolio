@@ -2,14 +2,14 @@ const form = document.querySelector("#contactForm");
 const message = document.querySelector("#message");
 
 // Name
-const fullName = document.querySelector("#fullName");
-const fullNameError = document.querySelector("#fullNameError");
+const adress = document.querySelector("#adress");
+const nameError = document.querySelector("#nameError");
 // Email
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
 // Message
-const adress = document.querySelector("#adress");
-const adressError = document.querySelector("#adressError");
+const formMessage = document.querySelector("#formMessage");
+const formMessageError = document.querySelector("#formMessageError");
 
 
 // If all inputs pass or fail while submitting the contact form
@@ -17,10 +17,10 @@ function passTheForm() {
    let error = false;
 
     // Name
-    if (length(fullName.value, "") === true) {
-        fullNameError.style.display = "none";
+    if (length(adress.value, "") === true) {
+        nameError.style.display = "none";
     } else {
-        fullNameError.style.display = "block";
+        nameError.style.display = "unset";
         error = true;
     }
 
@@ -28,15 +28,15 @@ function passTheForm() {
     if (validateEmail(email.value) === true) {
         emailError.style.display = "none";
     } else {
-        emailError.style.display = "block";
+        emailError.style.display = "unset";
         error = true;
     }
 
     // Message
-    if (length(adress.value, 24) === true) {
-        adressError.style.display = "none";
+    if (length(formMessage.value, 24) === true) {
+        formMessageError.style.display = "none";
     } else {
-        adressError.style.display = "block";
+        formMessageError.style.display = "unset";
         error = true;
     }
 
@@ -50,7 +50,7 @@ function submitForm(event) {
     const errors = passTheForm();
 
     if(!errors) {
-        message.innerHTML = '<div class="message">Yes! Your request is on its way, and we’ll come back to you.</div>';
+        message.innerHTML = '<span class="message">Thank you for your message! I will come back to you as soon as possible.</span>';
     } 
 
     // Retain inputted text after submit, unless we change it or refresh the page
