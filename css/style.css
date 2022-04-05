@@ -420,7 +420,7 @@ footer p {
         height: 41vh;
         list-style-position: inside;
         position: relative;
-        transform: translateY(-140%);
+        transform: translateY(-150%);
         transition: 0.5s cubic-bezier(0.9, -0.14, 0, 1.15);
     }
       .drop-down {
