@@ -715,15 +715,15 @@ select {
     padding: 2px 6px;
 }
 #message {
+    margin-bottom: 2rem;
+}
+.message {
     background: #f7ffff;
     border: 1px solid var(--tertiary-color);
     border-radius: 2.5px;
-    margin-bottom: 2rem;
-    padding: 5px 10px;
-}
-.message {
     color: var(--tertiary-color);
     font-size: 14px;
+    padding: 5px 10px;
 }
 
 /* MEDIA QUERIES ~ Contact form Page*/
