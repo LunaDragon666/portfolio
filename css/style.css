@@ -155,12 +155,30 @@ max-width: 1315px;margin: 0 auto;}
     margin-right: 1.4rem;
     margin-top: 3rem;
     padding: 10px 20px;
-    text-decoration: none !important;}
+    text-decoration: none !important;
+    transition: 0.25s;
+}
+
+.cta:hover {
+      background: white;
+      border: 3px solid #2B3694;
+      border-radius: 5px;
+      color: #2B3694;
+      font-weight: bold;
+}
 
 #download-btn {
     border: 3px solid #09B6BE;
     background: #09B6BE;
-    text-decoration: none;}
+    text-decoration: none !important;
+}
+
+#download-btn:hover {
+      border: 3px solid #09B6BE;
+      background: white;
+      color: #09B6BE;
+      font-weight: bold;
+}
 
 #download-button {
     margin-right: 0.5rem;
