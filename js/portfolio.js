@@ -1,7 +1,7 @@
 import { portfolio } from "./settings/data.js";
 
 const portfolioContainer = document.querySelector(".portfolio-container");
-
+    
 portfolio.forEach(work => {
   portfolioContainer.innerHTML += `
     <figure class="sample">
@@ -18,8 +18,8 @@ portfolio.forEach(work => {
         </div>
         <p class="sample-description">${work.description}</p>
         <div class="btn-wrap">
-        <a class="work-link" id="main" href="${work.prototype}" target="_blank">Prototype</a>
-        <a class="work-link" href="${work.github}" target="_blank">GitHub</a>
+            <a class="work-link" id="main" href="${work.prototype}" target="_blank">Prototype</a>
+            <a class="work-link" href="${work.github}" target="_blank">GitHub</a>
         </div>
       </div> 
     </figure>  
