@@ -640,13 +640,13 @@ footer p {
 @media screen and (max-width: 1024px) {
       .about-page { 
         padding: 2.5rem 2rem 10rem; 
-    }
+    margin-bottom: 2.5rem;}
     .bio {
         height: 100px;
     }
     #profile {
         margin-bottom: 3rem !important;
-        margin-top: -7rem;
+        margin-top: -5rem;
     }
     .button-wrap {
         margin-bottom: 0;
