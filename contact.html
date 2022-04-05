@@ -46,7 +46,8 @@
 
         <!-- CONTACT FORM -->
         <form id="contactForm">
-            <div class="message"></div>
+                          <!-- Message confirmation -->
+                          <div id="message"></div>
             <h1 class="form-heading">Let's get in touch</h1>
                 <!-- * 1st column * --> 
                     <!-- Input fields -->
@@ -57,16 +58,16 @@
                         <span class="required">
                             *
                         </span>
-                            <span id="name" class="error">Enter your name</span>
+                            <span id="nameError" class="error">&#9888; Enter your name</span>
                         </label>
-                        <input type="text" name="name" id="name">
+                        <input type="adress" name="adress" id="adress">
                         <!-- email -->
                         <label for="email">
                             Email 
                         <span class="required">
                             *
                         </span>
-                            <span id="email" class="error">Invalid email</span>
+                            <span id="emailError" class="error">&#9888; Invalid email</span>
                         </label>
                         <input type="email" name="email" id="email">
                         <!-- phone -->
@@ -84,14 +85,14 @@
                             <span class="required">
                                 *
                             </span>
-                                <span id="message" class="error">Must contain at least 24 characters</span>
+                                <span id="formMessageError" class="error">&#9888; Min. 24 character</span>
                             </label>
                             <textarea name="message" id="formMessage"></textarea>
                         <!-- submit button -->
                             <input type="submit" value="Send">
                         </div>
         </form>
-        
+
     </div>
 
     <!-- FOOTER -->
