@@ -25,7 +25,7 @@ export const portfolio = [
         category: "UX | UI",
         image: "../img/portfolio/project3.jpg",
         id: "3",
-        description: "In the first semester project, we were to create a website for a fictional science museum aimed at primary school students, families with children, schools and possibly researchers. I've created a visual identity for the Community Science Museum in addition to prototypes of the website both with Adobe XD and as a hosted version of it via Netlify.",
+        description: "A self-chosen assignment I worked on across various course assignments we had first year in Frontend Development study program. For this school project I used to practice the code languages HTML, CSS and JavaScript to build an interactive online store, aimed at computer gamer enthusiasts who wants to buy both new, old and used games.",
         github: "https://github.com/LunaDragon666/gamehub",
         prototype: "https://thegamehub.netlify.app/",
     }
